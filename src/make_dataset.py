@@ -6,7 +6,6 @@ from io import BytesIO
 from zipfile import ZipFile
 from urllib.request import urlopen
 from config.config import read_params
-from databaseconnection.connect_database import add_data
 
 
 def download_and_unzip():
